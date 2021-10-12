@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get "/contact_one", controller: "contacts", action: "contact_one"
+  get "/contact_all", controller: "contacts", action: "contact_all"
 end
